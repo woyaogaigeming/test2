@@ -65,42 +65,42 @@ AddHover.prototype.oJump=function(){
 	var oSelf=this;
 	$(oSelf.ele).find('.dl').on({
 		click:function(){
-			window.open('http://10.20.152.34/xiangmu1-Epet.com/denglu/html/Londing.html')
+			window.location.href='../../denglu/html/Londing.html'
 		}
 	});
     $(oSelf.ele).find('.bagBox a').on({
         click:function(){
-            window.open('http://10.20.152.34/xiangmu1-Epet.com/denglu/html/Londing.html')
+            window.location.href='../../denglu/html/Londing.html'
         }
     });
 	$(oSelf.ele).find('.zc').on({
 		click:function(){
-			window.open('http://10.20.152.34/xiangmu1-Epet.com/zhuce/html/Register.html')
+            window.location.href='../../zhuce/html/Register.html'
 		}
 	});
 	$(oSelf.ele).find('.g1').on({
 		click:function(){
-			window.open('http://10.20.152.34/xiangmu1-Epet.com/xiangqing/html/Detail.html')
+            window.location.href='../../xiangqing/html/Detail.html'
 		}
 	});
 	$(oSelf.ele).find('.nav1 .hover').on({
 		click:function(){
-			window.open('http://10.20.152.34/xiangmu1-Epet.com/paixuye/html/Sort.html')
+            window.location.href='../../paixuye/html/Sort.html'
 		}
 	});
     $(oSelf.ele).find('.cart-t').on({
         click:function(){
-            window.open('http://10.20.152.34/xiangmu1-Epet.com/gouwuche/html/ShoppingCart.html')
+            window.location.href='../../gouwuche/html/ShoppingCart.html'
         }
     });
     $(oSelf.ele).find('.e2').on({
         click:function(){
-            window.open('http://10.20.152.34/xiangmu1-Epet.com/gouwuche/html/ShoppingCart.html')
+            window.location.href='../../gouwuche/html/ShoppingCart.html'
         }
     });
     $(oSelf.ele).find('.go-buy').on({
         click:function(){
-            window.open('http://10.20.152.34/xiangmu1-Epet.com/gouwuche/html/ShoppingCart.html')
+            window.location.href='../../gouwuche/html/ShoppingCart.html'
         }
     });
 	

@@ -50,14 +50,20 @@ Londing.prototype.oJump=function () {
 
     $(oSelf.ele).find('.hz_r a').on({
         click:function(){
-            console.log(121212);
-            window.open('http://10.20.152.34/xiangmu1-Epet.com/zhuce/html/Register.html');
+           // console.log(121212);
+            window.location.href='../../zhuce/html/Register.html'
         }
     });
     $(oSelf.ele).find('.foot_t a').eq(0).on({
         click:function(){
             //console.log(121212);
-            window.open('http://10.20.152.34/xiangmu1-Epet.com/shouye/html/Epet.html');
+            window.location.href='../../shouye/html/Epet.html'
+        }
+    });
+    $(oSelf.ele).find('.head_l').on({
+        click:function(){
+            //console.log(121212);
+            window.location.href='../../shouye/html/Epet.html'
         }
     });
 }
@@ -82,7 +88,7 @@ Londing.prototype.olond=function () {
                 success:function(data){
 					//console.log(111111);
                     confirm(data.content);
-                    location.href='http://10.20.152.34/xiangmu1-Epet.com/shouye/html/Epet.html';
+                    window.location.href='../../shouye/html/Epet.html';
 				},
 				error:function(xhr){
 					document.write(xhr.responseText);
@@ -142,7 +148,7 @@ Londing.prototype.olond=function () {
 						success: function (data) {
 							//console.log(111111);
 							confirm(data.content);
-							location.href = 'http://10.20.152.34/xiangmu1-Epet.com/shouye/html/Epet.html';
+                            window.location.href = '../../shouye/html/Epet.html';
 						},
 						error: function (xhr) {
 							document.write(xhr.responseText);

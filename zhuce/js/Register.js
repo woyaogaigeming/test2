@@ -124,7 +124,7 @@ Register.prototype.oVerify=function(){
                 success:function(data){
                     //显示后台返回的结果
                     confirm(data.content);
-                    location.href='http://10.20.152.34/xiangmu1-Epet.com/shouye/html/Epet.html';
+                    window.location.href='../../shouye/html/Epet.html';
                 },
                 error:function(xhr){
                    document.write(xhr.responseText);
@@ -142,13 +142,13 @@ Register.prototype.oJump=function(){
     $(oSelf.ele).find('.header_r a').on({
         click:function(){
             //console.log(121212);
-            window.open('http://10.20.152.34/xiangmu1-Epet.com/denglu/html/Londing.html');
+            window.location.href='../../denglu/html/Londing.html'
         }
     });
     $(oSelf.ele).find('.foot_t a').eq(0).on({
         click:function(){
             //console.log(121212);
-            window.open('http://10.20.152.34/xiangmu1-Epet.com/shouye/html/Epet.html');
+            window.location.href='../../shouye/html/Epet.html'
         }
     });
 
