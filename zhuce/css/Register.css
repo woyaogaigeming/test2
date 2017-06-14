@@ -1,0 +1,31 @@
+
+html,body{width:100%;}
+input{outline: none;}
+.header{width:100%;border-bottom:1px solid #e7e7e7;}
+.fl{float:left;}
+.fr{float:right;}
+.header_inner{width:1100px;margin:0 auto;padding:30px 0;overflow:hidden;}
+.header_l{overflow:hidden;}
+.header_l img{display:inline-block;}
+.header_l img:nth-child(2){margin-top:10px;}
+.header_r{height:60px;line-height:60px;font-size: 14px;color:#666;}
+.header_r a{color: #427fd2;font-size:16px;outline:none;}
+
+.main{width:100%;}
+.main_inner{width:872px;margin:0 auto;padding:55px 0 30px 228px;overflow:hidden;border-bottom:1px solid #e7e7e7;}
+
+.phone,.loginico,.phoneico,.loginname,.loginword,.ologinword,.chk,.btn{margin-bottom: 10px;height:54px;overflow:hidden;position:relative;}
+.phone1{height:54px;line-height:54px;}
+.phone1 span,.loginico1 span,.phoneico1 span,.loginname1 span,.loginword1 span,.ologinword1 span{text-align: right;width:96px;font-size:16px;display: inline-block;}
+.phone1 input,.loginico1 input,.phoneico1 input,.loginname1 input,.loginword1 input,.ologinword1 input{display:inline-block;height:48px;border-radius:5px;width:413px;font-size:14px;text-indent:16px;border:none;border:1px solid #e7e7e7;}
+.phone2,.loginico3,.phoneico3,.loginname2,.loginword2,.ologinword2{background:#fff3d9;color:#ff6f4a;width:150px;height:53px;line-height:53px;text-align:center;font-size:14px;border-radius:5px;position:absolute;top:0;left:517px;display:none;}
+.phone3,.loginico4,.phoneico4,.loginname3,.loginword3,.ologinword3{height:20px;padding:16px 0;position:absolute;top:0;left:517px;display:none;}
+.loginico1 input{width:203px;}
+.loginico2{width:200px;height:52px;margin-left:5px;}
+.loginico2 p{display:block;width:98px;height:50px;border:1px solid #e7e7e7;float:left;line-height:52px;text-align:center;font-size:16px;border-radius:5px;}
+.phoneico1 input{width:253px;margin-right:5px;}
+.phoneico2{width:149px;height:52px;border:1px solid #33CB98;border-radius:5px;text-align:center;line-height:52px;font-size:16px;}
+.chk{padding-left:100px;line-height:53px;font-size:14px;}
+.btn input{display:block;width:413px;height:52px;border:none;border-radius:5px;line-height:52px;text-align:center;color:#fff;background:#ededed;font-size:20px;margin-left:100px;}
+
+.footer{width:100%;text-align:center;padding:70px 0;color:#999;}
